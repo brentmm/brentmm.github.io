@@ -1,0 +1,11 @@
+Credit given to owners of all images used, originals can be found a links below:
+
+Azure Logo: https://swimburger.net/media/0zcpmk1b/azure.jpg
+Azure Services: https://res.cloudinary.com/practicaldev/image/fetch/s--eHMcB6KJ--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://omer-public.s3.eu-west-2.amazonaws.com/azure-services.jpg
+Azure Process: https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2isvA?ver=0658
+Server rack: https://images.unsplash.com/photo-1551703599-6b3e8379aa8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80
+Azure Sample web page: https://docs.microsoft.com/en-us/azure/app-service/media/quickstart-html/hello-world-in-browser.png
+CPU: https://images.unsplash.com/photo-1619670922021-fc1a7b7dff67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
+Harddisk: https://images.unsplash.com/photo-1601737487795-dab272f52420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+Cable: https://images.unsplash.com/photo-1605192020788-24d8eae86e59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80
+Azure VM logo: https://connectoricons-prod.azureedge.net/releases/v1.0.1567/1.0.1567.2748/azurevm/icon.png
