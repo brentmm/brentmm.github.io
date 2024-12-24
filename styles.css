@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #2c3e50;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  color: #0080ff;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar Styles */
+#navbar {
+  background: #34495e;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed; /* Fixed position for the navbar */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar li {
+  margin: 0 15px;
+}
+
+#navbar a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#profile-pic {
+  height: 25%;
+  border-radius: 50%;
+}
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome Section Styles */
+#welcome-section {
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Full width of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px; /* Space for fixed navbar */
+  background: #ecf0f1; /* Light background for welcome section */
+}
+
+/* Project Tile Styles */
+.project-tile {
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  background: #ecf0f1;
+}
+
+#skills {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+/*  Animation */
+.dots {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.dot {
+  position: absolute;
+  bottom: 100%;
+  width: 20px;
+  height: 20px;
+  background: orange;
+  border-radius: 50%;
+  animation: flicker 0.5s infinite alternate;
+}
+
+.dot1 {
+  left: 10px;
+  animation-delay: 0s;
+}
+
+.dot2 {
+  left: 30px;
+  animation-delay: 0.1s;
+}
+
+.dot3 {
+  left: 50px;
+  animation-delay: 0.2s;
+}
+
+/* Animation Keyframes */
+@keyframes flicker {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #34495e;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  #navbar ul {
+    flex-direction: column; /* Stack navbar items vertically on smaller screens */
+  }
+}
