@@ -5,7 +5,7 @@ body {
   padding: 0;
   line-height: 1.6;
   color: #333;
-  background-color: #f4f4f4;
+  background-color: #ecf0f1;
 }
 
 h1,
@@ -35,7 +35,7 @@ a:hover {
   background: #34495e;
   color: #fff;
   padding: 10px 0;
-  position: fixed; /* Fixed position for the navbar */
+  position: absolute; /* Fixed position for the navbar */
   top: 0;
   width: 100%;
   z-index: 1000; /* Ensure it stays above other content */
@@ -83,6 +83,7 @@ section {
   text-align: center;
   padding-top: 60px; /* Space for fixed navbar */
   background: #ecf0f1; /* Light background for welcome section */
+  box-shadow: none;
 }
 
 /* Project Tile Styles */
@@ -96,7 +97,6 @@ section {
 
 #skills {
   padding: 20px;
-  background-color: #f9f9f9;
   border-radius: 8px;
 }
 
