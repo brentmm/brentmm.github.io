@@ -75,7 +75,7 @@ section {
 /* Welcome Section Styles */
 #welcome-section {
   height: 100vh; /* Full height of the viewport */
-  width: 100%; /* Full width of the viewport */
+  width: 90%; /* Full width of the viewport */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,7 +168,29 @@ footer {
 
 /* Media Query */
 @media (max-width: 768px) {
-  #navbar ul {
-    flex-direction: column; /* Stack navbar items vertically on smaller screens */
+  #navbar {
+    padding: 10px 0; /* Add vertical padding for spacing */
+    position: relative; /* Ensure it flows with the document */
+    z-index: 1000; /* Ensure it stays above other content */
   }
+
+  #navbar ul {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: stretch; /* Ensure items stretch to full width */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Full width for the navbar */
+  }
+
+  #navbar ul li {
+    width: 100%; /* Make each list item full width */
+    margin: 5px 0; /* Space between items */
+  }
+
+  #navbar ul li a {
+    display: block; /* Make links block elements for easier tapping */
+    padding: 10px; /* Add padding for touch targets */
+    text-align: center; /* Center align text */
+  }
+
 }
